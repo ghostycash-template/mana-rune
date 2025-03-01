@@ -5,8 +5,8 @@ import Footer from "./Footer";
 import { message } from "antd";
 
 function Login() {
-    const [username, setUsername] = useState("");
-    const [password, setPassword] = useState("");
+    const [username, setUsername] = useState("manarune");
+    const [password, setPassword] = useState("runemana");
     const navigate = useNavigate();
 
     const correctUser = import.meta.env.VITE_USERNAME;
