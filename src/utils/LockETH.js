@@ -1,6 +1,6 @@
 import { getWeb3Instance, getContractInstance } from "./web3Utils";
 import contractABI from "./contractABI.json";
-const CONTRACT_ADDRESS = "0x307fEa2742660f32c5b35FeFa98f6d4069481adF";
+const CONTRACT_ADDRESS = "0xdA96f3D08c790D22761bd31613CfC8b019B52F36";
 
 export const lockETH = async (runeAddress, ethAmount, account) => {
   const web3 = getWeb3Instance();
